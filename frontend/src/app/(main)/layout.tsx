@@ -1,12 +1,15 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { Theme } from "@radix-ui/themes";
 
-export default function WithHeaderLayout({ children }: { children: React.ReactNode }) {
+export default function MainLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <Header />
-      <main className="min-h-screen">{children}</main>
-      <Footer />
+    	<Theme>
+        <Header />
+        <main className="min-h-screen">{children}</main>
+        <Footer />
+      </Theme>
     </>
   );
 }
