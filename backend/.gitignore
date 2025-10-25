@@ -56,3 +56,6 @@ dmypy.json
 
 # FastAPI / Uvicorn reload files
 *.db
+
+# .env
+.env
