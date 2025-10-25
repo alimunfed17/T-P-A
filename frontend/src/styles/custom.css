@@ -1,10 +1,20 @@
 @import "tailwindcss";
 
+/* Header Component */
+
 .header-link-button {
     @apply px-4 border border-blue-500 rounded-xl hover:bg-gray-300 
         hover:border-gray-300 text-base text-gray-400 hover:text-blue-500;
 }
 
+/* Footer Component  */
+
 .footer-link {
     @apply text-base text-gray-400 hover:text-gray-600 hover:underline;
+}
+
+/* Chat Message Bubble */
+
+.chat-icon {
+    @apply rounded-full bg-blue-500;
 }
